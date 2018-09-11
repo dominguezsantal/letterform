@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Letter</title>
+  </head>
+  <body>
+
+      <div class="container" id="userForm">
+        <div id="blankForm">
+          <form id="userInput">
+              <div class="form-group">
+                <label for="firstName">What's your first name?</label>
+                <input type="text" class="form-control" id="firstName">
+              </div>
+              <div class="form-group">
+                <label for="lastName">What's your last name?</label>
+                <input type="text" class="form-control" id="lastName">
+              </div>
+              <div class="form-group">
+                <label for="surname">What surname do you Prefer? Mr? Mrs? Ms?</label>
+                <input type="text" class="form-control" id="surname">
+              </div>
+              <div class="form-group">
+                <label for="jobTitle">What's your job title?</label>
+                <input type="text" class="form-control" id="jobTitle">
+              </div>
+              <button type="submit" class="btn btn-info">Submit Info</button>
+          </form>
+        </div>
+    </div>
+
+    <div id="letter">
+      <div class="container">
+        <div class="row">
+          <h1>Epicodus Evening Class</h1>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Date: <span id="letterDate"></span></h2>
+            <h2><span id="surname"></span> <span id="firstName"></span> <span id="lastName"></span></h2>
+            <h2><span id="jobTitle"></span></h2>
+          </div>
+          <div class="col-md-8">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <h4>Epicodus</h4>
+            <h4>Instructors and Staff</h4>
+            <h4>400 SW 6th Ave #800, Portland, OR 97204</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <p>Dear <span id="firstName"></span>,</p>
+            <p></p>
+            <p>I am writing you to annonce that you are AWESOME. Keep up the good work.</p>
+            <p>We at Epidodus very much look forward to your completion of our program, and we're invested in your success!</p>
+            <p></p>
+            <p>Thank you for your commitment to us, we're committed to you!</p>
+            <p>Respectfully,</p>
+            <p>Epicodus Staff</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
